@@ -6,21 +6,12 @@
       http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd">
    <!-- Namespace탭에서1234 mybatis-spring체크해서 추가할것 -->
    
-<!-- Root Context: defines shared resources visible to all other web components -->
-   <!--
-   <bean id="dataSource"
-   class="org.springframework.jdbc.datasource.SimpleDriverDataSource">
-   <property name="driverClass" value="oracle.jdbc.OracleDriver"/>
-   <property name="url" value="jdbc:oracle:thin:@localhost:1521:xe"/>
-   <property name="username" value="system"/>
-   <property name="password" value="oracle"/>데이터 베이스연결을 위한 소스코드
-   </bean> -->
    <bean id="dataSource"
    class="org.springframework.jdbc.datasource.SimpleDriverDataSource">
    <property name="driverClass" value="oracle.jdbc.OracleDriver"/>
    <property name="url" value="jdbc:oracle:thin:@localhost:1521:orcl"/>
    <property name="username" value="scott"/>
-   <property name="password" value="123456"/><!-- 데이터 베이스연결을 위한 소스코드 -->
+   <property name="password" value="123456"/>
    </bean>
 
  

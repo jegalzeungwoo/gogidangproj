@@ -251,10 +251,6 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# STS (Spring Tool Suite)
-.springBeans
-root-context.xml
-
 # End of https://www.toptal.com/developers/gitignore/api/windows,macos,maven,java
 /.metadata/
 >>>>>>> main
